@@ -12,6 +12,9 @@ public class HealthController : MonoBehaviour
             hpController.health--;
             hpController.DrawHearts();
         }
+        else if (collision.gameObject.CompareTag("Healbox"))
+            hpController.health++;
+            hpController.DrawHearts();
     }
 
     private void Update()

@@ -4,8 +4,8 @@ using UnityEngine;
 public class HeartController : MonoBehaviour
 {
     public GameObject heartPrefab;
-    public float maxHealth = 10f;
-    public float health = 7f;
+    public int maxHealth = 10;
+    public int health = 7;
 
     List<HealthHearts> hearts =  new List<HealthHearts>();
 
